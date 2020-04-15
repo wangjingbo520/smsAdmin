@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_menu"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="选项卡"
+        app:showAsAction="ifRoom">
+
+        <menu>
+            <item
+                android:id="@+id/action_1"
+                android:icon="@android:drawable/ic_menu_mapmode"
+                android:title="1069通道记录"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/action_2"
+                android:icon="@android:drawable/btn_star_big_off"
+                android:title="查找用户"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/action_3"
+                android:icon="@mipmap/gl"
+                android:title="配置卡密"
+                app:showAsAction="ifRoom" />
+        </menu>
+
+    </item>
+</menu>
